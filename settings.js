@@ -5,16 +5,16 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "", // Add your session id
+SESSION_ID: process.env.SESSION_ID || "XnICkJDY#-6_6GalC3RwFVQh8nfzM0GycSasOCndWpkxA3A_G_EY", // Add your session id
 PREFIX: process.env.PREFIX || ".",
-AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
-AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
-AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
+AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "false",
+AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
+AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 STATUS_REPLY_MSG: process.env.STATUS_REPLY_MSG || "*_`AUTO STATUS JUST NOW SEEN BY LARA MD`_*",
 MODE: process.env.MODE || "public",
 AUTO_VOICE: process.env.AUTO_VOICE || "false",
-AUTO_REACT: process.env.AUTO_REACT || "true",
-FAKE_RECORDING: process.env.FAKE_RECORDING || "true",
+AUTO_REACT: process.env.AUTO_REACT || "false",
+FAKE_RECORDING: process.env.FAKE_RECORDING || "false",
 AUTO_TYPING: process.env.AUTO_TYPING || "false",
 ANTI_LINK: process.env.ANTI_LINK || "true",
 ANTI_BAD: process.env.ANTI_BAD || "true",   
